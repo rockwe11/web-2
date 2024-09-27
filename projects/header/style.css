@@ -4,10 +4,66 @@
 }
 
 body{
-    
+    font-family: 'Montserrat', sans-serif;
 }
 
 .header{
     width: 100%;
     box-sizing: border-box;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu__ul {
+    display: flex;
+}
+
+.menu__li {
+    list-style: none;
+    margin: 40px;
+}
+
+.menu__li a {
+    color: black;
+    font-size: 16px;
+    font-weight: 300;
+    text-decoration: none;
+}
+.menu__li a:hover {
+    color: #05a88d;
+}
+
+.menu__logo {
+    color: #05a88d;
+    font-size: 24px;
+    font-weight: 700;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-decoration: none;
+}
+
+.buttons button {
+    padding: 13px 22px;
+    color: #05A88D;
+    font-size: 16px;
+    font-weight: 300;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.menu__signup {
+    
+}
+.buttons button:hover {
+    box-sizing: border-box;
+    border: 1px solid #05A88D;
+    border-radius: 3px;
+}
+.menu__login {
+    margin: 0 70px;
 }
